@@ -2,4 +2,13 @@
 
 GET {{url}}
 ###
-POST {{url}}
+POST {{url}}/livro
+
+Content-Type: application/json
+
+{
+  "id": 1,
+  "titulo": "O Senhor dos Anéis",
+  "generos": "Fantasia, Aventura",
+  "autores": "J.R.R. Tolkien"
+}
